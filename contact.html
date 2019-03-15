@@ -25,9 +25,9 @@
           Name: <input type="text" name="name"><br>
           Address: <input type="text" name="name">
           <select name="state">
-            <option class = "state" value="UT">Utah</option>
-            <option class = "state" value="CA">California</option>
-            <option class = "state" value="NY">New York</option>
+            <option id = "state1" class = "state" value="UT">Utah</option>
+            <option id = "state2" class = "state" value="CA">California</option>
+            <option id = "state3" class = "state" value="NY">New York</option>
           </select>        
       </fieldset>
       <input id="maleRB" type="radio" name="gender" value="male">
@@ -47,7 +47,24 @@
 			//Step 5: Set an id on each option in the select tag. Name the id's state1, state2, and state3.
 			//Change the states that are used in the dropdown box to "Missouri", "Iowa", "Nebraska". Use the states abbreviation for the value property.
 
-			
+			/* var state1 = document.getElementById("State 1");
+                state1.value = "MO";
+                state1.innerHTML = "Missouri";
+            
+            
+            var state2 = document.getElementById("State 2")
+                state2.value = "IA";
+                state2.innerHTML = "Iowa";
+            
+            
+            
+            
+            var state3 = document.getElementById("State 3")
+                 state3.value = "NE";
+                 state3.innerHTML = "Nebraska */
+        
+        
+        
 			
 			
 			
@@ -57,9 +74,14 @@
 	
 			//Comment out the code for Step 5. On the Contact.html page, set a class id called "state" on each option in the select tag. 
 			//Write the code to change all of the states to the word "Hello". 
-
-			
-			
+                
+                var statey.getElementsByClassName("state");
+                    
+                    for statey (i = 0; i < statey.length; i ++){
+			         statey[i].value = "Hello";
+                     statey[i].innerHTML = "Hello";
+        
+                }
 			
 			
 			
